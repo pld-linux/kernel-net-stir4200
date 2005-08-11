@@ -1,6 +1,6 @@
 
-%bcond_without dist_kernel	# Don't use the distribution's kernel
-%bcond_without smp		# Don't build the SMP module
+%bcond_without	dist_kernel	# Don't use the distribution's kernel
+%bcond_without	smp		# Don't build the SMP module
 
 %define _orig_name	stir4200
 Summary:	SigmaTel USB-IrDA dongle driver
