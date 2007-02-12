@@ -4,8 +4,8 @@
 
 %define _orig_name	stir4200
 Summary:	SigmaTel USB-IrDA dongle driver
-Summary(es):	Controlador del puente USB-IrDA de SigmaTel
-Summary(pl):	Sterownik pomostu USB-IrDA SigmaTel
+Summary(es.UTF-8):   Controlador del puente USB-IrDA de SigmaTel
+Summary(pl.UTF-8):   Sterownik pomostu USB-IrDA SigmaTel
 Name:		kernel-net-%{_orig_name}
 # To find out: grep Version: *.h
 Version:	0.1b
@@ -31,22 +31,22 @@ comply with the "Universal Serial Bus IrDA Bridge Device Definition".
 Install this package if, despite of that, you want to make use of
 devices based on the chip.
 
-%description -l es
+%description -l es.UTF-8
 SigmaTel ha creado un chip para adaptadored de IrDA en USB que ignora
-el est·ndar "Universal Serial Bus IrDA Bridge Device Definition".
+el est√°ndar "Universal Serial Bus IrDA Bridge Device Definition".
 Instale este paquete si, a pesar de ello, quiere sacar provecho de
 dispositivos basados en ese chip.
 
-%description -l pl
-SigmaTel wypu∂ci≥ chip dla adapterÛw IrDA na USB, ktÛry ≥amie zasady
-okre∂lone w standardzie "Universal Serial Bus IrDA Bridge Device
-Definition". Zainstaluj ten pakiet je∂li mimo wszystko chcesz
-korzystaÊ z opartych na nim urz±dzeÒ.
+%description -l pl.UTF-8
+SigmaTel wypu≈õci≈Ç chip dla adapter√≥w IrDA na USB, kt√≥ry ≈Çamie zasady
+okre≈õlone w standardzie "Universal Serial Bus IrDA Bridge Device
+Definition". Zainstaluj ten pakiet je≈õli mimo wszystko chcesz
+korzystaƒá z opartych na nim urzƒÖdze≈Ñ.
 
 %package -n kernel-smp-net-%{_orig_name}
 Summary:	SigmaTel USB-IrDA dongle driver
-Summary(es):	Controlador del puente USB-IrDA de SigmaTel
-Summary(pl):	Sterownik pomostu USB-IrDA SigmaTel
+Summary(es.UTF-8):   Controlador del puente USB-IrDA de SigmaTel
+Summary(pl.UTF-8):   Sterownik pomostu USB-IrDA SigmaTel
 Release:	%{_rel}@%{_kernel_ver_str}
 Group:		Base/Kernel
 %{!?with_dist_kernel:%requires_releq_kernel_smp}
@@ -59,17 +59,17 @@ comply with the "Universal Serial Bus IrDA Bridge Device Definition".
 Install this package if, despite of that, you want to make use of
 devices based on the chip.
 
-%description -n kernel-smp-net-%{_orig_name} -l es
+%description -n kernel-smp-net-%{_orig_name} -l es.UTF-8
 SigmaTel ha creado un chip para adaptadored de IrDA en USB que ignora
-el est·ndar "Universal Serial Bus IrDA Bridge Device Definition".
+el est√°ndar "Universal Serial Bus IrDA Bridge Device Definition".
 Instale este paquete si, a pesar de ello, quiere sacar provecho de
 dispositivos basados en ese chip.
 
-%description -n kernel-smp-net-%{_orig_name} -l pl
-SigmaTel wypu∂ci≥ chip dla adapterÛw IrDA na USB, ktÛry ≥amie zasady
-okre∂lone w standardzie "Universal Serial Bus IrDA Bridge Device
-Definition". Zainstaluj ten pakiet je∂li mimo wszystko chcesz
-korzystaÊ z opartych na nim urz±dzeÒ.
+%description -n kernel-smp-net-%{_orig_name} -l pl.UTF-8
+SigmaTel wypu≈õci≈Ç chip dla adapter√≥w IrDA na USB, kt√≥ry ≈Çamie zasady
+okre≈õlone w standardzie "Universal Serial Bus IrDA Bridge Device
+Definition". Zainstaluj ten pakiet je≈õli mimo wszystko chcesz
+korzystaƒá z opartych na nim urzƒÖdze≈Ñ.
 
 %prep
 %setup -q -c -T -a0
