@@ -4,8 +4,8 @@
 
 %define _orig_name	stir4200
 Summary:	SigmaTel USB-IrDA dongle driver
-Summary(es.UTF-8):   Controlador del puente USB-IrDA de SigmaTel
-Summary(pl.UTF-8):   Sterownik pomostu USB-IrDA SigmaTel
+Summary(es.UTF-8):	Controlador del puente USB-IrDA de SigmaTel
+Summary(pl.UTF-8):	Sterownik pomostu USB-IrDA SigmaTel
 Name:		kernel-net-%{_orig_name}
 # To find out: grep Version: *.h
 Version:	0.1b
@@ -45,8 +45,8 @@ korzystać z opartych na nim urządzeń.
 
 %package -n kernel-smp-net-%{_orig_name}
 Summary:	SigmaTel USB-IrDA dongle driver
-Summary(es.UTF-8):   Controlador del puente USB-IrDA de SigmaTel
-Summary(pl.UTF-8):   Sterownik pomostu USB-IrDA SigmaTel
+Summary(es.UTF-8):	Controlador del puente USB-IrDA de SigmaTel
+Summary(pl.UTF-8):	Sterownik pomostu USB-IrDA SigmaTel
 Release:	%{_rel}@%{_kernel_ver_str}
 Group:		Base/Kernel
 %{!?with_dist_kernel:%requires_releq_kernel_smp}
